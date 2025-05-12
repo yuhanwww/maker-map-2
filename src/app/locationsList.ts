@@ -10,12 +10,12 @@ export const LOCATIONS: Location[] = [
     hourNotes: "Open and accessible when the library is open, swipe card access may be required. Hours subject to change during breaks.", /** Any specific notes on availability (staffed hours/classes/etc) */
     hours: [], /** Hours shown on the popup */
     filtHours:["0:00-24:00","0:00-24:00","0:00-24:00","0:00-24:00","0:00-24:00","0:00-24:00","0:00-24:00"], /** Hours in 24 hour time used to filter */
-    accessNotes: "Available when Neilson Library is open", /** Notes on access */
+    accessNotes: "9-5 for interns and staff, available when Neilson Library is open", /** Notes on access */
     access: true, /** All campus access true/false */
     location: "Inside Neilson Library", /** Location */
     accessibility: "Wheelchair accessible",
     image: "assets/images/1-CC/picture.jpg", /** Location of picture of space */
-    contact:[{name:"CIEC", email:"ciec@smith.edu "}], /** Contact name and email */
+    contact:[{name:"Juliana Hobert", email:"jhobert@smith.edu"}], /** Contact name and email */
     dot:"assets/images/1-CC/1-01.png", /** Location of dot image */
     },
 
@@ -24,16 +24,16 @@ export const LOCATIONS: Location[] = [
     nameKey:"SAL",
     resources: ["20 Windows computers with standard Science Center software profile", "GIS, Remote Sensing, Photogrammetry applications."],
     filtResources: ["Software Support", "Computers", "Whiteboard"],
-    hourNotes: "Not available during classes or workshops or meetings.  See Spatial Analysis Lab calendar for staffed hours.",
-    hours: ["8:00AM-10:00PM","7:00AM - 11:00PM","7:00AM - 11:00PM","7:00AM - 11:00PM","7:00AM - 11:00PM","7:00AM - 11:00PM"
-  ,"8:00AM-10:00PM",],
-    filtHours:["8:00-22:00","7:00-23:00","7:00-23:00","7:00-23:00","7:00-23:00","7:00-23:00","8:00-22:00"],
-    accessNotes: "Priority given to students enrolled in classes using the SAL.  Not available during class use.  Project system for instructor use only.",
+    hourNotes: "Neilson 012D - Standard library hours; SR104 7am-11pm OneCard access to enter Sabin Reed",
+    hours: ["7:00AM-11:00PM","7:00AM - 11:00PM","7:00AM - 11:00PM","7:00AM - 11:00PM","7:00AM - 11:00PM","7:00AM - 11:00PM"
+  ,"7:00AM-11:00PM",],
+    filtHours:["7:00-23:00","7:00-23:00","7:00-23:00","7:00-23:00","7:00-23:00","7:00-23:00","7:00-23:00"],
+    accessNotes: "Either space may be reserved for class or workshop use, visit our calendar to see when the lab is in use or when we have staffed hours https://www.science.smith.edu/sal/contact/#calendar",
     access: true,
-    location: "Sabin-Reed 104",
+    location: "Sabin-Reed 104, Neilson 012D",
     accessibility: "Wheelchair accessible",
     image: "assets/images/2-Spatial Analysis Lab/picture.jpeg",
-    contact:[{name:"Jon Caris", email:"jcaris@smith.edu"}],
+    contact:[{name:"Kalai Ellis", email:"lellis@smith.edu"}],
     dot:"assets/images/2-Spatial Analysis Lab/2-01.png",
     },
 
@@ -73,19 +73,19 @@ export const LOCATIONS: Location[] = [
     },
 
     {key: "assets/images/5-JMM/5_creative_co_op-01.png",
-    name: "Creative Co-op at Jandon",
+    name: "Jandon Center",
     nameKey:"CCJC",
     resources: ["Support but not limited to our Crafting for Community STEAM Outreach Initiative"],
     filtResources: ["Arts and craft supplies"],
     hourNotes:"Hours subject to change during breaks and over the summer.",
-    hours: ["Closed", "4:00PM - 6:00PM","Closed","Closed","Closed","1:00PM - 3:00PM", "Closed"],
-    filtHours:["24:00-0:00","16:00-18:00","24:00-0:00","24:00-0:00","24:00-0:00","13:00-15:00","24:00-0:00"],
+    hours: ["Closed", "8:30AM - 5:00PM","8:30AM - 5:00PM","8:30AM - 5:00PM","8:30AM - 5:00PM","8:30AM - 5:00PM", "Closed"],
+    filtHours:["24:00-0:00","08:00-17:00","08:00-17:00","08:00-17:00","08:00-17:00","08:00-17:00","24:00-0:00"],
     access: true,
-    accessNotes: "Special activities, workshops and requests may fall outside regular hours",
+    accessNotes: "Anyone is available to use our supplies and materials, though they must remain in the space.",
     location: "Wright Hall Room 13",
-    accessibility: "1st Floor is wheelchair accessible",
+    accessibility: "Accessible entrance near Nielson Library steps",
     image: "assets/images/5-JMM/Jandon_1.jpg",
-    contact:[{name:"Deborah Day",email:"dday@smith.edu"}],
+    contact:[{name:"Nancy Zigler",email:"nzigler@smith.edu"}],
     dot:"assets/images/5-JMM/5-01.png",
     },
 
@@ -95,14 +95,14 @@ export const LOCATIONS: Location[] = [
     resources: ["Poster-making supplies", "Photocopier", "Markerpaints", "Arts & crafts supplies"],
     filtResources: ["Arts and craft supplies","Whiteboard"],
     hourNotes:"Hours subject to change during breaks",
-    hours: ["9:00AM - 11:30PM", "7:30AM - 11:30PM","7:30AM - 11:30PM","7:30AM - 11:30PM","7:30AM - 11:30PM","7:30AM - 11:30PM", "9:30AM - 11:30PM"],
-    filtHours:["9:00-23:30","7:30-23:30","7:30-23:30","7:30-23:30","7:30-23:30","7:30-23:30","9:30-23:30"],
+    hours: ["9:00AM - 11:00PM", "7:00AM - 11:00PM","7:00AM - 11:00PM","7:00AM - 11:00PM","7:00AM - 11:00PM","7:00AM - 11:00PM", "9:00AM - 11:00PM"],
+    filtHours:["9:00-23:00","7:00-23:00","7:00-23:00","7:00-23:00","7:00-23:00","7:00-23:00","9:30-23:00"],
     access: true,
     accessNotes: "Available when Campus Center is open",
     location: "Campus Center Room 203",
     accessibility: "Wheelchair accessible via elevator",
     image: "assets/images/6-Resource Room/picture.jpeg",
-    contact:[{name:"OSE",email:"ose@smith.edu"}],
+    contact:[{name:"Casey Martin",email:"cmartin64@smith.edu"}],
     dot:"assets/images/6-Resource Room/6-01.png",
     },
 
@@ -112,14 +112,18 @@ export const LOCATIONS: Location[] = [
     resources: ["3D printers", "Large paper cutter", "Adobe Suite and 3D editing software", "iMac computers", "Large format printers", "Contact staff for 3D scanning and poster printing support."],
     filtResources: ["3D printer", "Software support", "Computers", "Printing", "Whiteboard"],
     hourNotes:"No use during lectures",
-    hours: ["Closed","8:30AM -4:30PM","8:30AM - 4:30PM","8:30AM - 4:30PM","8:30AM - 4:30PM","8:30AM - 4:30PM","Closed"],
-    filtHours:["24:00-0:00","8:30-16:30","8:30-16:30","8:30-16:30","8:30-16:30","8:30-16:30","24:00-0:00"],
+    hours: ["Closed","8:30AM -4:30PM","9:00AM - 5:00PM","9:00AM - 5:00PM","9:00AM - 5:00PM","9:00AM - 5:00PM","Closed"],
+    filtHours:["24:00-0:00","9:00-17:00","9:00-17:00","9:00-17:00","9:00-17:00","9:00-17:00","24:00-0:00"],
     access: true,
-    accessNotes: "Open to students enrolled in Art Department courses.",
+    accessNotes: "Our checkout equipment is for Art Department only, other equipment (listed above) available on walk-in basis. Large-scale printer is charged to OneCard by the square foot. Feel free to email ic-u@smith.edu to consult with our staff about your project.",
     location: "Hillyer H324",
     accessibility: "Wheelchair accessible",
     image: "assets/images/7-Imaging Center/imaging center photo.jpg",
+<<<<<<< Updated upstream
     contact:[{name: "Nick Baker", email:"ncbaker@smith.edu"}],
+=======
+    contact:[{name: "Emily Anne Cartledge", email:"jcartled@smith.edu"}],
+>>>>>>> Stashed changes
     dot:"assets/images/7-Imaging Center/7-01.png",
     },
 
@@ -146,10 +150,10 @@ export const LOCATIONS: Location[] = [
     resources: ["Woodworking"],
     filtResources: ["Woodworking"],
     hourNotes:"When Drew is available",
-    hours: ["Closed", "Closed","8:00AM - 5:00PM","8:00AM - 5:00PM","Closed","8:00AM - 5:00PM","Closed"],
-    filtHours:["24:00-0:00","24:00-0:00","8:00-17:00","8:00-17:00","24:00-0:00","8:00-17:00","24:00-0:00"],
+    hours: ["Closed", "Closed","8:30AM - 12:00 PM, 1:00PM - 4:30PM","8:30AM - 12:00 PM, 1:00PM - 4:30PM","Closed","8:30AM - 12:00 PM, 1:00PM - 4:30PM","Closed"],
+    filtHours:["24:00-0:00","24:00-0:00","8:30-16:30","8:30-16:30","24:00-0:00","8:30-16:30","24:00-0:00"],
     access: true,
-    accessNotes: "Available to drop-in when Drew Palmore is in the Woodshop",
+    accessNotes: "Open hours subject to change. Please email Drew to make an appointment.",
     location: "Hillyer Basement",
     accessibility: "Wheelchair accessible",
     image: "assets/images/9-Hilyer Woodshop/Woodshop_1.jpg",
@@ -185,10 +189,10 @@ export const LOCATIONS: Location[] = [
     filtHours:["0:00-24:00","0:00-24:00","0:00-24:00","0:00-24:00","0:00-24:00","0:00-24:00","0:00-24:00"],
     access: false,
     accessNotes: "24/7 swipe for EGR students, others by request; staff support by request",
-    location: "Burton B016, B017",
+    location: "Ford 345",
     accessibility: "Wheelchair accessible via Sabin/Burton elevator; power assist door B016",
     image: "assets/images/11-EGR Studio/picture.jpeg",
-    contact:[{name:"Sue Froehlich", email:"sfroehli@smith.edu"}],
+    contact:[{name:"Koh", email:"rkoh@smith.edu"}],
     dot:"assets/images/11-EGR Studio/11-01.png",
     },
 
@@ -205,7 +209,7 @@ export const LOCATIONS: Location[] = [
     location: "Ford Hall LL 022, 024, 002",
     accessibility: "Accessible for humans & most projects via exterior 1.5-door @ grade level; 'forklift accessible' but no cars",
     image: "assets/images/12-Mechanics Playground/picture.jpeg",
-    contact:[{name:"Sue Froehlich", email:"sfroehli@smith.edu"}],
+    contact:[{name:"Koh", email:"rkoh@smith.edu"}],
     dot:"assets/images/12-Mechanics Playground/12-01.png",
     },
     
@@ -231,10 +235,10 @@ export const LOCATIONS: Location[] = [
     nameKey:"TCS",
     resources: ["Sewing machines", "Dress forms", "Iron and steaming", "Flat patterning tools"],
     filtResources: ["Other fabrication tools","Arts and craft supplies","Computers","Printing"],
-    hours: ["Closed", "9:00AM - 5:00PM","9:00AM - 5:00PM","9:00AM - 5:00PM","9:00AM - 5:00PM","9:00AM - 5:00PM", "Closed"],
+    hours: ["Closed", "9:00AM - 12:00PM, 1:00PM - 5:00PM","9:00AM - 12:00PM, 1:00PM - 5:00PM","9:00AM - 12:00PM, 1:00PM - 5:00PM","9:00AM - 12:00PM, 1:00PM - 5:00PM","9:00AM - 12:00PM; 1:00PM - 5:00PM", "Closed"],
     hourNotes:"Closed for lunch from 12-1",
     filtHours:["24:00-0:00","9:00-17:00","9:00-17:00","9:00-17:00","9:00-17:00","9:00-17:00","24:00-0:00"],
-    accessNotes: "Limited to students enrolled in Costume Classes",
+    accessNotes: "Limited to students enrolled in Costume Classes. Except Open Hours Friday 1-4",
     access: false,
     location: "Mendenhall Room T12",
     accessibility: "Wheelchair accessible via elevator",
@@ -252,7 +256,7 @@ export const LOCATIONS: Location[] = [
     hourNotes:"24/7 access for students enrolled in classes.",
     filtHours:["0:00-24:00","0:00-24:00","0:00-24:00","0:00-24:00","0:00-24:00","0:00-24:00","0:00-24:00"],
     access: false,
-    accessNotes: "Open to students in art classes using studio space only.",
+    accessNotes: "Studio classrooms open only to students enrolled in courses scheduled in the space.",
     location: "Hillyer Art Building",
     accessibility: "Wheelchair accessible",
     image: "assets/images/15-Hillyer Art Studios/HilyerClassroom_1.jpg",
