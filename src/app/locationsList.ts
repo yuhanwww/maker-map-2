@@ -119,11 +119,7 @@ export const LOCATIONS: Location[] = [
     location: "Hillyer H324",
     accessibility: "Wheelchair accessible",
     image: "assets/images/7-Imaging Center/imaging center photo.jpg",
-<<<<<<< Updated upstream
-    contact:[{name: "Nick Baker", email:"ncbaker@smith.edu"}],
-=======
     contact:[{name: "Emily Anne Cartledge", email:"jcartled@smith.edu"}],
->>>>>>> Stashed changes
     dot:"assets/images/7-Imaging Center/7-01.png",
     },
 
